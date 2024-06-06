@@ -6,8 +6,7 @@ import {Subscription} from "rxjs";
 @Component({
   selector: 'app-recipes',
   templateUrl: './recipes.component.html',
-  styleUrl: './recipes.component.css',
-  providers: [RecipeService]
+  styleUrl: './recipes.component.css'
 })
 export class RecipesComponent {
 
